@@ -150,6 +150,52 @@ p {
     color: var(--accent);
 }
 
+.nav-right-group {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+/* LANGUAGE SWITCHER STYLES */
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    background-color: rgba(15, 61, 46, 0.05);
+    padding: 0.25rem 0.6rem;
+    border-radius: 50px;
+    border: 1px solid var(--border);
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 0.15rem 0.35rem;
+    border-radius: 3px;
+    transition: var(--transition);
+}
+
+.lang-btn:hover {
+    color: var(--primary);
+}
+
+.lang-btn.active {
+    color: var(--primary);
+    background-color: var(--bg-card);
+    box-shadow: var(--shadow-sm);
+}
+
+.lang-divider {
+    font-size: 0.75rem;
+    color: var(--text-light);
+    user-select: none;
+}
+
 .nav-links {
     display: flex;
     gap: 2rem;
