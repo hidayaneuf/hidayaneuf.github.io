@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio Akademik Hidayaneu Farchatunnisa - Penyelidik Kewangan Sosial Islam, Tatakelola Zakat, dan Pembasmian Kemiskinan di BAZNAS Indonesia.">
-    <meta name="keywords" content="Hidayaneu Farchatunnisa, BAZNAS, Kewangan Sosial Islam, Governance Zakat, Poverty Alleviation, Had Kifayah, Indeks Zakat Nasional">
+    <meta name="description" id="metaDescription" content="Academic & Policy Researcher Portfolio - Hidayaneu Farchatunnisa">
+    <meta name="keywords" content="Hidayaneu Farchatunnisa, BAZNAS, Islamic Social Finance, Zakat Governance, Poverty Alleviation, Had Kifayah, National Zakat Index">
     <meta name="author" content="Hidayaneu Farchatunnisa">
     <title>Hidayaneu Farchatunnisa | Researcher Portfolio</title>
 
@@ -27,19 +27,28 @@
             <a href="#" class="brand-logo" id="navBrandLogo">
                 <!-- Dijana secara dinamik daripada data.js -->
             </a>
-            
-            <button class="mobile-toggle" id="mobileToggle" aria-label="Togol Menu Navigasi">
-                <i class="fa-solid fa-bars"></i>
-            </button>
+
+            <div class="nav-right-group">
+                <!-- LANGUAGE SWITCHER -->
+                <div class="lang-switcher" id="langSwitcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <span class="lang-divider">|</span>
+                    <button class="lang-btn" data-lang="id">ID</button>
+                </div>
+                
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
 
             <ul class="nav-links" id="navLinks">
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#areas" class="nav-link">Research Areas</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#publications" class="nav-link">Publications</a></li>
-                <li><a href="#journey" class="nav-link">Journey</a></li>
-                <li><a href="#engagement" class="nav-link">Engagement</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#about" class="nav-link" id="navAbout">About</a></li>
+                <li><a href="#areas" class="nav-link" id="navAreas">Research Areas</a></li>
+                <li><a href="#projects" class="nav-link" id="navProjects">Projects</a></li>
+                <li><a href="#publications" class="nav-link" id="navPublications">Publications</a></li>
+                <li><a href="#journey" class="nav-link" id="navJourney">Journey</a></li>
+                <li><a href="#engagement" class="nav-link" id="navEngagement">Engagement</a></li>
+                <li><a href="#contact" class="nav-link" id="navContact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -67,11 +76,8 @@
 
                 <div class="hero-image-wrapper">
                     <div class="hero-image-card">
-                        <!-- Gambar profil akan dipaparkan di sini.
-                             Gantikan fail assets/images/profile.jpg untuk menukar foto profil anda. -->
                         <img id="heroImage" src="assets/images/profile.jpg" alt="Hidayaneu Farchatunnisa">
                         
-                        <!-- Paparan kecemasan sekiranya gambar gagal dimuatkan -->
                         <div class="hero-image-placeholder" id="heroImageFallback" style="display: none;">
                             <i class="fa-solid fa-user-graduate"></i>
                             <h3 id="fallbackName">Hidayaneu Farchatunnisa</h3>
@@ -89,8 +95,8 @@
         <div class="container">
             <div class="about-grid">
                 <div class="about-text">
-                    <h2 class="section-title">Professional Biography</h2>
-                    <p class="section-subtitle">Bridging academic measurement frameworks and socio-economic welfare policies.</p>
+                    <h2 class="section-title" id="aboutTitle">Professional Biography</h2>
+                    <p class="section-subtitle" id="aboutSubtitle">Bridging academic measurement frameworks and socio-economic welfare policies.</p>
                     
                     <div id="aboutBioContainer">
                         <!-- Perenggan Biografi Dijana daripada data.js -->
@@ -99,7 +105,7 @@
 
                 <div style="padding-top: 1rem;">
                     <div class="philosophy-card">
-                        <span class="philosophy-title">Research Philosophy</span>
+                        <span class="philosophy-title" id="philosophyTitle">Research Philosophy</span>
                         <blockquote class="philosophy-quote" id="researchPhilosophy">
                             <!-- Falsafah Penyelidikan Dijana Dinamik -->
                         </blockquote>
@@ -112,8 +118,8 @@
     <!-- RESEARCH AREAS -->
     <section class="section-padding" id="areas" style="background-color: var(--bg-subtle);">
         <div class="container">
-            <h2 class="section-title">Research Areas</h2>
-            <p class="section-subtitle">Core domains of study focusing on institutional governance, poverty metrics, and welfare outcome evaluation.</p>
+            <h2 class="section-title" id="areasTitle">Research Areas</h2>
+            <p class="section-subtitle" id="areasSubtitle">Core domains of study focusing on institutional governance, poverty metrics, and welfare outcome evaluation.</p>
 
             <div class="areas-grid" id="areasContainer">
                 <!-- Kad Bidang Penyelidikan Dijana Dinamik -->
@@ -124,8 +130,8 @@
     <!-- FEATURED RESEARCH PROJECTS -->
     <section class="section-padding" id="projects">
         <div class="container">
-            <h2 class="section-title">Featured Research Projects</h2>
-            <p class="section-subtitle">Key policy-oriented research initiatives, indices, and analytical frameworks.</p>
+            <h2 class="section-title" id="projectsTitle">Featured Research Projects</h2>
+            <p class="section-subtitle" id="projectsSubtitle">Key policy-oriented research initiatives, indices, and analytical frameworks.</p>
 
             <div class="projects-grid" id="projectsContainer">
                 <!-- Kad Projek Penyelidikan Dijana Dinamik -->
@@ -136,16 +142,12 @@
     <!-- PUBLICATIONS SECTION -->
     <section class="section-padding publications-section" id="publications">
         <div class="container">
-            <h2 class="section-title">Publications & Policy Papers</h2>
-            <p class="section-subtitle">Academic papers, policy monographs, research reports, and institutional books.</p>
+            <h2 class="section-title" id="pubTitle">Publications & Policy Papers</h2>
+            <p class="section-subtitle" id="pubSubtitle">Academic papers, policy monographs, research reports, and institutional books.</p>
 
             <!-- Butang Penapis Kategori -->
             <div class="filter-container" id="filterContainer">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="journal">Journal Articles</button>
-                <button class="filter-btn" data-filter="book">Books</button>
-                <button class="filter-btn" data-filter="report">Research Reports</button>
-                <button class="filter-btn" data-filter="policy">Policy Papers</button>
+                <!-- Dijana secara dinamik mengikut bahasa -->
             </div>
 
             <!-- Senarai Penerbitan -->
@@ -158,8 +160,8 @@
     <!-- PROFESSIONAL JOURNEY -->
     <section class="section-padding" id="journey">
         <div class="container">
-            <h2 class="section-title">Professional Journey</h2>
-            <p class="section-subtitle">Academic background and research career progression.</p>
+            <h2 class="section-title" id="journeyTitle">Professional Journey</h2>
+            <p class="section-subtitle" id="journeySubtitle">Academic background and research career progression.</p>
 
             <div class="timeline" id="timelineContainer">
                 <!-- Garis Masa Kerjaya & Pendidikan Dijana Dinamik -->
@@ -170,8 +172,8 @@
     <!-- KNOWLEDGE SHARING & ENGAGEMENT -->
     <section class="section-padding" id="engagement" style="background-color: var(--bg-subtle);">
         <div class="container">
-            <h2 class="section-title">Knowledge Sharing & Engagement</h2>
-            <p class="section-subtitle">Conferences, capacity building workshops, and academic dissemination.</p>
+            <h2 class="section-title" id="engagementTitle">Knowledge Sharing & Engagement</h2>
+            <p class="section-subtitle" id="engagementSubtitle">Conferences, capacity building workshops, and academic dissemination.</p>
 
             <div class="engagement-grid" id="engagementContainer">
                 <!-- Aktiviti Persidangan & Latihan Dijana Dinamik -->
@@ -182,8 +184,8 @@
     <!-- RESEARCH SKILLS -->
     <section class="section-padding">
         <div class="container">
-            <h2 class="section-title" style="display: block; text-align: center; margin-bottom: 0.75rem;">Research Expertise</h2>
-            <p class="section-subtitle" style="text-align: center; margin: 0 auto 3rem auto;">Methodological tools and thematic competencies.</p>
+            <h2 class="section-title" id="skillsTitle" style="display: block; text-align: center; margin-bottom: 0.75rem;">Research Expertise</h2>
+            <p class="section-subtitle" id="skillsSubtitle" style="text-align: center; margin: 0 auto 3rem auto;">Methodological tools and thematic competencies.</p>
 
             <div class="skills-container" id="skillsContainer">
                 <!-- Kemahiran Penyelidikan Dijana Dinamik -->
@@ -194,8 +196,8 @@
     <!-- CONTACT SECTION -->
     <section class="section-padding contact-section" id="contact">
         <div class="container">
-            <h2 class="section-title">Get in Touch</h2>
-            <p>Interested in research collaboration, policy discussions, or academic inquiries?</p>
+            <h2 class="section-title" id="contactTitle">Get in Touch</h2>
+            <p id="contactSubtitle">Interested in research collaboration, policy discussions, or academic inquiries?</p>
 
             <div class="contact-links" id="contactLinksContainer">
                 <!-- Pautan Hubungi Dijana Dinamik daripada data.js -->
@@ -206,7 +208,7 @@
     <!-- FOOTER -->
     <footer class="footer-bottom">
         <div class="container">
-            <p>&copy; <span id="currentYear"></span> <span id="footerName">Hidayaneu Farchatunnisa</span>. All rights reserved. | <span id="footerInstitution">Badan Amil Zakat Nasional (BAZNAS)</span></p>
+            <p>&copy; <span id="currentYear"></span> <span id="footerName">Hidayaneu Farchatunnisa</span>. <span id="footerRights">All rights reserved.</span> | <span id="footerInstitution">Badan Amil Zakat Nasional (BAZNAS)</span></p>
         </div>
     </footer>
 
