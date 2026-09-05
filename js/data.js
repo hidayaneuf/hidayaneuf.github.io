@@ -145,7 +145,7 @@ const SITE_CONFIG = {
     // MAKLUMAT HUBUNGI
     contacts: {
         email: "hidayaneu.farchatunnisa@baznas.go.id",
-        linkedin: "https://linkedin.com/in/",
+        linkedin: "https://www.linkedin.com/in/hidayaneu-farchatunnisa-315732286?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         github: "https://github.com/hidayaneuf",
         googleScholar: "https://scholar.google.com/"
     },
