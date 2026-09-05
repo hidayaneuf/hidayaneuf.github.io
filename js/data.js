@@ -251,7 +251,7 @@ const SITE_CONFIG = {
                 en: "In-depth field assessment analyzing urban poverty dynamics and targeted zakat interventions in major metropolitan areas in Indonesia.",
                 id: "Asesmen lapangan mendalam yang menganalisis dinamika kemiskinan perkotaan dan intervensi zakat terfokus di wilayah metropolitan Indonesia."
             },
-            detailsUrl: "#"
+            detailsUrl: "https://www.puskasbaznas.com/publications/published/policybrief/1901-kajian-kemiskinan-perkotaan-profesi-sopir-angkot"
         }
     ],
 
