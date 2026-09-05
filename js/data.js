@@ -15,10 +15,10 @@ const SITE_CONFIG = {
         institutionIcon: "fa-building-columns",
         
         // Gantikan fail assets/images/profile.jpg untuk kemas kini foto profil
-        photoUrl: "assets/images/profile.jpg", 
+        photoUrl: "assets/images/1713933742117.jpeg", 
         
         // Gantikan fail assets/documents/cv.pdf untuk kemas kini fail CV
-        cvUrl: "assets/documents/cv.pdf",
+        cvUrl: "assets/documents/CV HIDAYANEU FARCHATUNNISA.docx.pdf",
         
         // Ringkasan biodata di bahagian Hero
         heroBio: "Hidayaneu Farchatunnisa is a researcher at Badan Amil Zakat Nasional (BAZNAS), Indonesia, focusing on evidence-based research, measurement frameworks, and policy development in Islamic social finance and social welfare.",
